@@ -1,0 +1,33 @@
+nav.navbar {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  top: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fdc50f;
+  color: white;
+}
+nav.navbar ul {
+  margin-left: 13rem;
+}
+nav.navbar ul li .toggle {
+  margin-top: 11px;
+}
+@media screen and (max-width: 1200px) { 
+  nav.navbar ul li .toggle {
+    margin-right: 16rem;
+  }
+
+}
+@media screen and (max-width: 600px) { 
+  nav.navbar ul li .toggle {
+    margin-right: 21rem;
+    
+  }
+  nav.navbar ul {
+    margin-left: 0;
+  }
+
+}
